@@ -24,7 +24,7 @@ price_choices = {
   '1000000':'$1M+',
 }
 
-state_choices = {
+county_choices = {
         '01': 'Mombasa',
         '02': 'Kwale',
         '03': 'Kilifi',

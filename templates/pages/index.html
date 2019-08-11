@@ -13,8 +13,7 @@
           <h1 class="display-4 mb-4">
             Property Searching Just Got So Easy
           </h1>
-          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quas, asperiores eveniet vel nostrum magnam
-            voluptatum tempore! Consectetur, id commodi!</p>
+          <p class="lead">We have all ypur property solutions</p>
           <div class="search">
             <form action="{% url 'search' %}">
               <!-- Form Row 1 -->
@@ -25,15 +24,15 @@
                 </div>
 
                 <div class="col-md-4 mb-3">
-                  <label class="sr-only">City</label>
-                  <input type="text" name="city" class="form-control" placeholder="City">
+                  <label class="sr-only">Town</label>
+                  <input type="text" name="town" class="form-control" placeholder="Town">
                 </div>
 
                 <div class="col-md-4 mb-3">
                   <label class="sr-only">State</label>
-                  <select name="state" class="form-control">
-                    <option selected="true" disabled="disabled">State (All)</option>
-                    {% for key,value in state_choices.items %}
+                  <select name="county" class="form-control">
+                    <option selected="true" disabled="disabled">County (All)</option>
+                    {% for key,value in county_choices.items %}
                       <option value="{{ key }}">{{ value }}</option>
                     {% endfor %}
                   </select>

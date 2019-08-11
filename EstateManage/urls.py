@@ -19,8 +19,10 @@ from django.urls import path, include
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('',include('pages.urls')),
+    path('', include('Pages.urls')),
     path('listings/', include('listings.urls')),
     path('property/', include('property.urls')),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    path('accounts/', include('accounts.urls')),
+    path('admin/', admin.site.urls),
+]
+# ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
