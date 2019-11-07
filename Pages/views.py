@@ -31,3 +31,5 @@ def about(request):
 
     return render(request, 'pages/about.html', context)
 
+def moreProducts(request):
+    return render(request, 'pages/moreProducts.html')
