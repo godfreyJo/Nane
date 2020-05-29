@@ -32,7 +32,7 @@ entrypoints==0.3
 fabric==2.5.0
 filelock==3.0.12
 flake8==3.7.9
-Flask==0.10.1
+Flask==1.0
 Flask-Admin==1.0.8
 Flask-Bcrypt==0.7.1
 Flask-Cache==0.13.1
