@@ -1,3 +1,11 @@
 from django.test import TestCase
+from .models import Listing
 
-# Create your tests here.
+class ModelsTestCase(TestCase):
+
+    def setUp(self):
+
+
+         
+        return super().setUp()
+
