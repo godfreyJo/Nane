@@ -25,7 +25,7 @@ SECRET_KEY = 'cp$hxg^8gsmc!xj4^w5bwe=)*6u#&z4&7b#+yohgol(rn@f)_%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://landtenantsapp.herokuapp.com']
+ALLOWED_HOSTS = ['landtenantsapp.herokuapp.com']
 
 
 # Application definition
